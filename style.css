@@ -1,8 +1,67 @@
-.header{
-    text-align: center;
-    font-size: 80px;
-    color: blue;
-    border: 3px solid black;
-    
-}
 
+body{
+    background-color: rgb(0, 0, 0);
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;}
+.header{
+    font-size: 50px;
+	text-align: center;
+	color:white;
+}
+.intro{
+    color: antiquewhite;
+    font-size: 25px;
+    text-align: center;
+}
+#image{
+	max-width: 100%;
+	max-height:100%;
+	width:250px;
+	height:250px;
+	border-radius: 10%;
+	margin:10%;
+    margin-left: 25%;
+}
+.scoreContainer{
+	border: 3px solid rgb(255, 255, 255);
+	background-color: rgba(252, 238, 238, 0.925);
+	padding: 5px;
+	border-radius:20px;
+	width:100%;}
+
+#win{
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    font-size: 75px;
+    color: gold;
+    font-style: italic;
+    font-weight: 900;
+}
+#lose{
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    font-size: 75px;
+    color: rgb(104, 7, 7);
+    font-style: italic;
+    font-weight: 900;}
+
+#roll{
+    background-color:whitesmoke;
+    border-radius: 20%;
+    font-size: 30px;
+   margin-left: 44%;
+}
+#restartBtn{
+    background-color:whitesmoke;
+    border-radius: 20%;
+    font-size: 30px;
+   margin-left: 40%;
+}
