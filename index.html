@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DiceChallenge</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class = animatedGradient>			
+<div id=game>
+	<div class = header>
+	  <h1>Dice Game</h1>
+			
+	</div>
+    <div class = intro>
+        <p>Keep rolling until you reach 20</p>
+		<p>the game will end if you roll a 1</p>
+    </div>
+			<div class="scoreContainer">
+				Your score:  <span id = "Score">...</span>
+			</div>
+					<div id = click>
+						<img id = "image" src="image/diceSix.png">
+                    </div>
+	<button id = "roll" >Roll</button>
+	<button id = "restartBtn">Restart</button>	
+</div>	
+	<div id = win>CONGRATULATIONS</div>
+		<div id = lose>SORRY, TRY AGAIN</div>
+<script src="app.js"></script>
+</body>
+</html>
